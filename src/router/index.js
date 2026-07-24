@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import articulosVG from '../views/articulosVG.vue';
+import articulosVG from '../views/ArticulosVG.vue';
 import VistaDataJuego from '../views/VistaDataJuego.vue';
 import VistaDataAutor from '../views/VistaDataAutor.vue';
 import SobreNosotros from '../views/SobreNosotros.vue';
