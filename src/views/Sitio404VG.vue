@@ -14,8 +14,7 @@
         <article class="nowhere">
             <h1>Ups... ¿Donde está el juego?</h1>
             <img src="/src/assets/imgs/404.jpg" alt="">
-            <p>Esta página no está disponible en el sitio. <br>
-                ¡Pero no te preocupes! <br>
+            <p>Esta página no está disponible en el sitio de Videojueguines. ¡Pero no te preocupes! <br>
                 Te ayudamos a volver al principio: <button @click="volver">Haz click aquí</button></p>
         </article>
     </section>
@@ -29,7 +28,7 @@
     }
 
     .nowhere {
-        width: 40%;
+        width: 80%;
         margin: 2% auto;
         background-color: indigo;
         border-radius: 10px;
@@ -39,7 +38,7 @@
     }
 
     .nowhere img {
-        width: 50%;
+        width: 20%;
     }
 
     .nowhere p {
