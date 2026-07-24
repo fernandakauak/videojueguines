@@ -37,4 +37,9 @@
         font-family: "Geist Pixel", sans-serif;
         margin: 0;
     }
+    .about img{
+        max-width: 100%;
+        height: auto;
+        display:block;
+    }
 </style>
