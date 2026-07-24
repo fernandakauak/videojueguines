@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h1>Lista de Artículos</h1>
+    <h1>Archivo de Juegos</h1>
     <section>
         <article class="game-preview" v-for="vg in juegos" :key="vg.id">
             <img v-bind:src="vg.img" alt="{{ vg.nombre }}">
@@ -40,7 +40,6 @@
     article.game-preview .data {
         width: 100%;
         text-align: center;
-        background-color: black;
     }
 
     article.game-preview .data button {

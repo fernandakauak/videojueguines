@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import articulosVG from '../views/ArticulosVG.vue';
+import ArticulosVG from '../views/ArticulosVG.vue';
 import VistaDataJuego from '../views/VistaDataJuego.vue';
 import VistaDataAutor from '../views/VistaDataAutor.vue';
 import SobreNosotros from '../views/SobreNosotros.vue';
@@ -10,24 +10,21 @@ const router = createRouter({
 
     routes:[
         {
-            path:'/', redirect:'/videojueguines'
+            path:'/', redirect:'/juegos'
         },
         {
             path:'/juegos',
             alias:['/games','/jueguines'],
-            component: articulosVG
-
+            component: ArticulosVG
         },  
         {
             path:'/nosotros',
             component: SobreNosotros
-
         },       
         {
             path:'/juegos/:id',
             props:true,
             children:[
-                
                 {
                     path:'data',
                     component: VistaDataJuego,
@@ -42,9 +39,8 @@ const router = createRouter({
         },
         {
             path: '/:pathMatch(.*)*',
-            component: Vista404
+            component: Sitio404VG
         }
-        
     ]
 });
 
