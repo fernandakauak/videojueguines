@@ -9,8 +9,8 @@
             <img :src="vg.img" :alt="vg.nombre">
             <div class="data">
                 <h3>{{ vg.nombre }}</h3>
-                <button><router-link :to="`/juegos/${vg.id}/data`">Ver Data</router-link></button>
-                <button><router-link :to="`/juegos/${vg.id}/autor`">Ver Autor</router-link></button>
+                <button><router-link :to="`/juegos/${vg.id}/data`">Información</router-link></button>
+                <button><router-link :to="`/juegos/${vg.id}/autor`">Desarrollador</router-link></button>
             </div>
         </article>
     </section>

@@ -1,5 +1,10 @@
-# Vue 3 + Vite
+#  🕹️ Videojueguines, tu blog de videojuegos
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Un blog con muchas recomendaciones de videojuegos que pueden gustarte, interesarte y que, quizás no sabías, necesitabas conocer. Descubre toda la información que te pueda ayudar (desarrolladores, requerimientos, consolas, etc) a disfrutar de los títulos que tenemos para ti.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Let's play some games! 🎮⭐
+
+---
+Puedes verlo aquí: https://fernandakauak.github.io/videojueguines/
+
+> 🎓 *Este sitio fue hecho por el grupo **PokeMetálicos Asociados**, integrado por **Fernanda Kauak** y **Martín Miranda**, en el Curso de Desarrollo Front-End de SENCE 2026.*
