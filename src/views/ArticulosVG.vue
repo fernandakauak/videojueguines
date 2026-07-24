@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h1>Archivo de Juegos</h1>
+    <h1 class="title">Archivo de Juegos</h1>
     <section>
         <article class="game-preview" v-for="vg in juegos" :key="vg.id">
             <img :src="vg.img" :alt="vg.nombre">
@@ -32,6 +32,13 @@
         align-items: center;
         background-color: indigo;
         color: lightpink;
+        box-shadow: 5px 5px rgb(53, 4, 82), inset 2px 2px rgb(175, 135, 211);
+    }
+
+    .title {
+        background-color: lightpink;
+        color: indigo;
+        padding: 1%;
     }
 
     article.game-preview img {
@@ -59,7 +66,6 @@
         background-color: lightpink;
         padding: 2% 4%;
         cursor: pointer;
-        border-radius: 10px;
         border: none;
         margin: 2% 0;
         font-weight: bold;

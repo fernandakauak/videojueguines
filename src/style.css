@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
+  font-family: "Geist Pixel", sans-serif;
+  background-color: rgb(201, 164, 187);
+  background-image: url(/src/assets/imgs/bg-vg.png);
+  background-blend-mode: soft-light;
+  background-size: 25%;
   margin: 0;
+
 }
 
 h1, h2, h3 {
   font-family: "Silkscreen", sans-serif;
+}
+
+header {
+  margin-bottom: 5%;
+}
+
+.logo img {
+  width: 70%
 }
 
 #app {
@@ -22,13 +35,14 @@ h1, h2, h3 {
   box-sizing: border-box;
 }
 
-nav ul li a {
+nav a {
   text-decoration: none;
   background-color: indigo;
   color: lightcoral;
+  padding: 2% 4%;
 }
 
-nav ul li a:hover, nav ul li a:active {
+nav a:hover, nav a:active {
   color: indigo;
   background-color: lightcoral;
 }

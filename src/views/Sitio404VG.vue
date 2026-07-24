@@ -16,7 +16,7 @@
             <img src="/src/assets/imgs/404.jpg" alt="">
             <p>Esta página no está disponible en el sitio. <br>
                 ¡Pero no te preocupes! <br>
-                Te ayudamos a volver a la etapa 1:  <button @click="volver">Haz click aquí</button></p>
+                Te ayudamos a volver al principio: <button @click="volver">Haz click aquí</button></p>
         </article>
     </section>
 
@@ -35,6 +35,7 @@
         border-radius: 10px;
         padding: 2%;
         color: lightpink;
+        box-shadow: 5px 5px rgb(53, 4, 82), inset 2px 2px rgb(175, 135, 211);
     }
 
     .nowhere img {
