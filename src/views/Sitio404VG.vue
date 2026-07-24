@@ -44,6 +44,7 @@
     .nowhere p {
         font-size: 18px;
         line-height: 120%;
+        text-wrap: pretty;
     }
 
     .nowhere button {
