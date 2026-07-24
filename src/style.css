@@ -21,3 +21,14 @@ h1, h2, h3 {
   flex-direction: column;
   box-sizing: border-box;
 }
+
+nav ul li a {
+  text-decoration: none;
+  background-color: indigo;
+  color: lightcoral;
+}
+
+nav ul li a:hover, nav ul li a:active {
+  color: indigo;
+  background-color: lightcoral;
+}
