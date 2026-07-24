@@ -154,6 +154,84 @@ export const juegos = [
     opinion: 'Altamente adictivo con una mecánica de juego brillante, efectos sonoros contagiosos y un diseño visual retro único.',
     requisitos: 'Intel Core i3, 1 GB RAM, OpenGL 2.1 compatible',
     img: '/src/assets/imgs/juegos/balatro.webp'
+  },
+  {
+    id: 12,
+    nombre: 'Metal Gear Rising: Revengeance',
+    genero: ['Hack "n" Slash', 'Acción'],
+    anio: '2013',
+    plataforma: ['PC', 'PS3', 'XBox 360'],
+    clasificacion: 'M',
+    desarrollador: 'PlatinumGames',
+    descripcion: 'Raiden busca derrotar a un grupo terrorista mientras lucha contra sus propios recuerdos de niño soldado, provocando más de un cuestionamiento en el campo de batalla.',
+    opinion: 'Un juego con mucha adrenalina que no te mantendrá quieto en la silla mientras disfrutas de una -igualmente energética- banda sonora. ¡Y no olvides! ¡Corta, corta, corta!.',
+    requisitos: 'Intel Core i5 2400 con 2 GB de memoria RAM, tarjeta gráfica Nvidia Geforce GTS 450, 25 GB espacio disponible, DirectX Versión 9.0c compatible con la tarjeta de sonido',
+    img: '/src/assets/imgs/juegos/mgrr.webp'
+  },
+  {
+    id: 13,
+    nombre: 'Dance Dance Revolution 3rd Mix',
+    genero: ['Simulador de Baile'],
+    anio: '1999',
+    plataforma: ['Arcade'],
+    clasificacion: 'E',
+    desarrollador: 'Konami',
+    descripcion: 'Videojuego consistente en una pantalla y una plataforma con botones para jugar diversas canciones, siguiendo una secuencia de flechas según la melodía.',
+    opinion: 'Un juego ideal para pasarla bien, mantenerte activo e, incluso, conocer nuevas canciones. Las gráficas son muy graciosas y los personajes son entrañables',
+    requisitos: 'La máquina creada específicamente para este juego',
+    img: '/src/assets/imgs/juegos/ddr3rd.webp'
+  },
+  {
+    id: 14,
+    nombre: 'Bayonetta',
+    genero: ['Acción'],
+    anio: '2009',
+    plataforma: ['Nintendo Switch', 'PS4', 'PS3', 'Xbox 360', 'Wii U', 'Xbox One', 'PC'],
+    clasificacion: 'M',
+    desarrollador: 'PlatinumGames',
+    descripcion: 'Acompaña a Bayonetta, una bruja que lucha contra ángeles, a buscar más información de su pasado.',
+    opinion: 'Bayonetta te mantendrá entretenido afinando tu puntería, decifrando pistas y castigando enemigos de maneras poco ortodoxas ¡Usa tu tiempo de bruja y mantente atento!',
+    requisitos: 'Para PC: Procesador Core i3 3220, memoria RAM de 4GB, DirectX versión 9.0c, 20GB de almacenimiento y tarjeta Radeon HD6950 o GeForce GTX 570 (VRAM 768MB).',
+    img: '/src/assets/imgs/juegos/bayonetta.webp'
+  },
+  {
+    id: 15,
+    nombre: 'Tyrian 2000',
+    genero: ['Bullet Hell', 'Scrolling Shooter'],
+    anio: '1999',
+    plataforma: ['PC'],
+    clasificacion: 'E',
+    desarrollador: 'Eclipse Software',
+    descripcion: 'Un clásico disparador vertical, pero no es tan así cuando descubres contra quién estás luchando.',
+    opinion: 'Un juego con más de lo que parece mostrar, es muy divertido jugar y probar distintos tipos de armas en tu nave mientras recibes distintos mensajes. ¡Y con genial banda sonora!',
+    requisitos: 'Procesador 1.8 GHz, memoria de 2GB RAM y gráficos 3D graphics card compatibles con DirectX 9.0c',
+    img: '/src/assets/imgs/juegos/tyrian.webp'
+  },
+  {
+    id: 16,
+    nombre: 'SoulCalibur',
+    genero: ['Lucha'],
+    anio: '1999',
+    plataforma: ['Dreamcast'],
+    clasificacion: 'T',
+    desarrollador: 'Namco',
+    descripcion: 'Juega en modo historia o con tus amigos y averigua quién es el mejor usando su arma.',
+    opinion: 'Posee un diseño de personajes muy interesante y atractivo y puedes extender mucho el tiempo de juego usando a cada uno en el modo historia.',
+    requisitos: 'Consola requerida',
+    img: '/src/assets/imgs/juegos/soulcalibur.webp'
+  },
+  {
+    id: 17,
+    nombre: 'GS Mikami: Joreishi ha Nice Body',
+    genero: ['Plataforma'],
+    anio: '1993',
+    plataforma: ['Super Famicom'],
+    clasificacion: 'T',
+    desarrollador: 'Natsume',
+    descripcion: 'Sigue las aventuras de Mikami, la cazafantasmas, luchando contra espectros por dinero... típico de ella.',
+    opinion: 'Basado en el anime y manga de Mikami la Cazafantasmas, con estilo gráfico y humor típicos de estos. Su largo cabello el viento mece  🎵',
+    requisitos: 'Consola requerida',
+    img: '/src/assets/imgs/juegos/gsmikami.webp'
   }
 ]
 

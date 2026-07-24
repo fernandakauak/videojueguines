@@ -42,8 +42,8 @@
     }
 
     article.game-preview img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         aspect-ratio: 1 / 1;
         object-fit: cover;
         margin: 2%;
