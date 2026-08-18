@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router';
 import ArticulosVG from '../views/ArticulosVG.vue'
 import VistaFichaJuego from '../views/VistaFichaJuego.vue'
 import VistaDataJuego from '../views/VistaDataJuego.vue'
@@ -8,7 +8,7 @@ import SobreNosotros from '../views/SobreNosotros.vue'
 import Sitio404VG from '../views/Sitio404VG.vue'
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
 
     routes:[
         {
